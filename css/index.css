@@ -1,0 +1,160 @@
+/*****************************/
+/********** Main Body ********/
+/*****************************/
+body{
+    background-color:  #0b0c10;
+  }
+  .mainContent {
+      text-align: center;
+      background-color: #1f2833;
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 2%;
+      padding-top: 1%;
+      margin-top: 2%;
+  }
+  
+  .title {
+    color: #66fcf1;
+    font-size: 40px;
+    font-family: orange juice;
+  }
+  /*****************************/
+  /********** Text Box *********/
+  /*****************************/
+  
+  .textBox {
+    padding: 12px 20px;
+    margin: 8px 0 8px 7%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  /*****************************/
+  /********* Add Button ********/
+  /*****************************/
+  .addButton {
+      padding: 12px 20px;
+  }
+  
+  .addButton {
+    display: inline-block;
+    padding-left: 70px;
+    padding-top: 25px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px #999;
+    font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;  
+    color: #666;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */
+  }
+  
+  .addButton:hover {background-color: white}
+  
+  .addButton:active {
+    background-color: white;
+    box-shadow: 0 1px #666;
+    transform: translateY(3px);
+  }
+  
+  /*****************************/
+  /*********** List ************/
+  /*****************************/
+  #list {
+      list-style-type: none;
+  }
+  
+  
+  ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 50px 12px 40px;
+    background: #c5c6c7;
+    font-size: 16px;
+    font-weight: normal;
+    transition: 0.2s;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    word-wrap: break-word;
+    color: black;
+    border-radius: 10px;
+    text-transform:capitalize;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  
+  ul li:nth-child(even){
+    background: #fff;
+  }
+  
+  
+  
+  .strike{
+    text-decoration: line-through;
+  }
+  
+  /********************************/
+  /* Once the item is in the list */
+  /********************************/
+  .checked:before {
+      content: '';
+      position: absolute;
+      border-color: black;
+      border-style: solid;
+      border-width: 0 2px 2px 0;
+      top: 10px;
+      left: 16px;
+      transform: rotate(45deg);
+      height: 15px;
+      width: 7px;
+    }
+  
+  /********************************/
+  /******** Delete Button *********/
+  /********************************/
+  
+    li .close {
+      border: none;
+      position: absolute;
+      height: 100%;
+      right: 0;
+      top: 0; 
+      opacity: 0;
+      background-color: #e74c3c;
+      transition: all .3s;
+      width: 0;
+    }
+    
+    li:hover .close {
+      width: 50px;
+      opacity: 1;
+      cursor: pointer;
+      border-radius: 0 10px 10px 0;
+    }
+    
+    i {
+      color: white;
+    }
+  
+  /*****************************/
+  /******* List Sections *******/
+  /*****************************/
+  
+  h3 {
+    color: #66fcf1;
+    
+  }
