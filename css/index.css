@@ -17,7 +17,8 @@ body{
 
 @media screen and (max-width: 800px) {
   .mainContent {
-    padding-right: 4%;
+    max-width: 100%;
+
   }
 }
 
@@ -26,9 +27,10 @@ body{
   font-size: 40px;
   font-family: orange juice;
 }
+
 @media screen and (max-width: 800px) {
   .title {
-    padding-left: 5%;
+    
   }
 }
 /*****************************/
@@ -43,6 +45,11 @@ body{
   border: none;
 }
 
+@media screen and (max-width: 800px) {
+  .title {
+    
+  }
+}
 
 
 /*****************************/
@@ -81,7 +88,9 @@ body{
 
 @media screen and (max-width: 800px) {
   .addButton {
-    margin-left: 5%; /* The width is 100%, when the viewport is 800px or smaller */
+    display: grid;
+    margin-left: 40%;
+    
   }
 }
 /*****************************/
@@ -93,7 +102,7 @@ body{
 
 @media screen and (max-width: 800px) {
   #list {
-    padding-right: 5%;
+    
   }
 }
 
