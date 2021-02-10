@@ -65,6 +65,9 @@ $(document).ready(
 
         // Makes It So That When I Start Up The Page You Are Typing In The Text Box //
         $('.textBox').focus(); 
+
+        // Makes List Items Sortable. //
+        $('h3').sortable();
         
     }
 );
