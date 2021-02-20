@@ -68,9 +68,17 @@ $(document).ready(
 
         // Makes List Items Sortable. //
         $('h3').sortable();
-        
+        window.onload = function() {
+            Particles.init({
+              selector: '.background'
+            });
+          };
     }
+    
 );
+
+
+    
 
 
 
