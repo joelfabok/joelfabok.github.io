@@ -196,7 +196,7 @@ h1 span:nth-child(14) {
 
 
 ul li{
-  cursor: pointer;
+  cursor: grab;
   position: relative;
   padding: 12px 50px 12px 40px;
   background: #c5c6c7;
@@ -213,9 +213,12 @@ ul li{
   text-transform:capitalize;
 }
 
+li:active {
+  cursor: grabbing;
+}
+
 li:hover {
   background-color: #efe2ba;
-  cursor: all-scroll;
 }
 
 
